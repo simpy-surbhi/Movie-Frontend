@@ -15,7 +15,7 @@
 
 .mainbody{
     min-height:100% ;
-    background-image:linear-gradient(to bottom, #162e5e, #019CAD), url("../Images/background.jpg");
+    background-image:black;
 }
 
 .labelclassSearch{

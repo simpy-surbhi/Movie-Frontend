@@ -20,8 +20,6 @@ class DetailsMovie extends Component {
             ratingData:{},
             socket: io('http://192.168.0.38:3001', { query: `movieId=${this.idMovie}&userid=${localStorage.getItem("userid")}` })
         }
-        localStorage.setItem("userid","1")
-        localStorage.setItem("username","vishal")
 
         this.submitComment = this.submitComment.bind(this)
         this.changeRating = this.changeRating.bind(this)
@@ -59,6 +57,7 @@ class DetailsMovie extends Component {
     
         this.state.socket.emit("SeenMovie", json, (data)=> {
             if (data.status == 200){
+                debugger;
                 console.log(data)
             }
         });

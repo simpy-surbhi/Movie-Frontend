@@ -19,7 +19,7 @@
     width: 100%;
     left: 0;
     flex: 1;
-    background-image:linear-gradient(to bottom, #162e5e, #019CAD), url("../Images/background.jpg");
+    background-color:black;
 }
 
 .poster{

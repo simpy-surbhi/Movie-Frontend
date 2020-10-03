@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import '../Css/Home.css'
-import img1 from '../Images/img1.jpg'
-import img2 from '../Images/img2.jpg'
-import img3 from '../Images/img3.jpg'
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import { homeApi } from '../api/apiService'
@@ -79,7 +76,7 @@ class Home extends Component {
                 <br/>
                 <div id="wrapper">
                     <div id="c1">
-                        <label class="labelclass">Movies</label>
+                        <label class="labelclass">Movie World</label>
                     </div>
                     <div id="c2">
                         <div id="wrapper">
@@ -94,10 +91,15 @@ class Home extends Component {
                 </div>
                 <br/>
                 <div>
+                
                     <AliceCarousel autoPlay autoPlayInterval="2000" fadeOutAnimation={true} buttonsDisabled={true} controlsStrategy="responsive">
-                        <img src={img1} className="sliderimg"/>
-                        <img src={img2} className="sliderimg"/>
-                        <img src={img3} className="sliderimg"/>
+                        <img src="https://s2.best-wallpaper.net/wallpaper/1920x1440/1204/Priest-movie-HD_1920x1440.jpg" className="sliderimg"/>
+                        <img src="https://cdn.wallpapersafari.com/86/83/c7nmps.jpg" className="sliderimg"/>
+                        <img src="https://www.listofdownload.com/wp-content/uploads/2018/10/Aquaman-2018-DC-Comics-Movie-Wallpaper-1920x1080.jpg" className="sliderimg"/>
+                        <img src="https://wallpapercave.com/wp/uw0gHLX.jpg" className="sliderimg"/>
+                        <img src="https://www.pixel4k.com/wp-content/uploads/2019/10/joker-happy-dancing_1572368502.jpg" className="sliderimg"/>
+                        <img src="https://www.wallmesh.com/wp-content/uploads/2017/11/rampage-2018-movie-hd-wallpaper-1920x1080.jpg" className="sliderimg"/>
+                        <img src="https://images.hdqwalls.com/wallpapers/rio-2-movie-hd.jpg" className="sliderimg"/>
                     </AliceCarousel>
                 </div>
                 <h3 class="htag">Recommended Movies</h3>

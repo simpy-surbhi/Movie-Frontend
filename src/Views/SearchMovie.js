@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Css/SearchMovie.css'
 import { searchMovie } from '../api/apiService'
-
+import AliceCarousel from 'react-alice-carousel';
 class SearchMovie extends Component {
 
     name = ""
@@ -56,11 +56,12 @@ class SearchMovie extends Component {
         return (
             <div class="mainbody">
                 <div>
-                    <label class="labelclassSearch">Movies</label>
+                    <label class="labelclassSearch">Movies List</label>
                 </div>
                 <div class="outer1">
                     { this.getrDivList() }
                 </div>
+
             </div>
         )
     }

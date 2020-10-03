@@ -74,50 +74,50 @@ class SignUP extends Component {
     render() {
         return (
             <form>
-                <h1>SIGN UP</h1>
+              <h1>Do Sign Up in  Movie World</h1>
                 <div className="container">
                     <label for="username"><strong>Username</strong></label>
-                    <input type="text" name="username" value={this.state.username} placeholder="Enter username" onChange={this.handleInputChange} required />
+                    <input type="text" name="username" value={this.state.username} placeholder="Enter your Username" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="password"><strong>Password</strong></label>
-                    <input type="password" name="password" value={this.state.password} placeholder="Enter password" onChange={this.handleInputChange} required />
+                    <input type="password" name="password" value={this.state.password} placeholder="Enter your Password" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="uname"><strong>Birthdate</strong></label><br/>
-                    <input type="date" name="birthdate" value={this.state.birthdate} placeholder="Select birthdate" onChange={this.handleInputChange} required />
+                    <input type="date" name="birthdate" value={this.state.birthdate} placeholder="Select your Birthdate" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="uname"><strong>Email</strong></label><br/>
-                    <input type="text" name="email" value={this.state.email} placeholder="Enter email" onChange={this.handleInputChange} required />
+                    <input type="text" name="email" value={this.state.email} placeholder="Enter your Email" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="uname"><strong>Country</strong></label><br/>
-                    <input type="text" name="country" value={this.state.country} placeholder="Enter country" onChange={this.handleInputChange} required />
+                    <input type="text" name="country" value={this.state.country} placeholder="Enter your Country" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="uname"><strong>Area</strong></label><br/>
-                    <input type="text" name="area" value={this.state.area} placeholder="Enter area" onChange={this.handleInputChange} required />
+                    <input type="text" name="area" value={this.state.area} placeholder="Enter your Area" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="uname"><strong>City</strong></label><br/>
-                    <input type="text" name="city" value={this.state.city} placeholder="Enter city" onChange={this.handleInputChange} required />
+                    <input type="text" name="city" value={this.state.city} placeholder="Enter your City" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="uname"><strong>Street</strong></label><br/>
-                    <input type="text" name="street" value={this.state.street} placeholder="Enter street" onChange={this.handleInputChange} required />
+                    <input type="text" name="street" value={this.state.street} placeholder="Enter your Street" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
                     <label for="uname"><strong>Pincode</strong></label><br/>
-                    <input type="text" name="pincode" value={this.state.pincode} placeholder="Enter pincode" onChange={this.handleInputChange} required />
+                    <input type="text" name="pincode" value={this.state.pincode} placeholder="Enter your Pincode" onChange={this.handleInputChange} required />
                 </div>
 
                 <div className="container">
@@ -135,7 +135,7 @@ class SignUP extends Component {
                 <button type="submit" onClick={this.handleSubmit}><strong>Sign Up</strong></button>
 
                 <Link to='/login'>
-                    <button type="button" ><strong>Sign In</strong></button>
+                    <button type="button" ><strong>Home</strong></button>
                 </Link>
             </form>
         )

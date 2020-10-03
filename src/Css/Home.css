@@ -24,7 +24,7 @@
     top: 0; 
     width: 100%;
     left: 0;
-    background-image:linear-gradient(to bottom, #162e5e, #019CAD), url("../Images/background.jpg");
+    background-color:black;
 }
 
 .labelclass{
@@ -35,14 +35,14 @@
     margin-left: 15px;
     left:10px;
     font-size: 45px;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#eee, aquamarine);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .htag{
     margin-left:15px;
-    color: white;
+    color:aquamarine;
     font-weight: bold;
 }
 
